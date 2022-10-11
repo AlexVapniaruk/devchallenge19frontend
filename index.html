@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <div class="title">
+          Crime topography
+        </div>
+        <div class="content-wrap">
+        <div class="content">
+          <div class="statistics"></div>
+          <div class="map-wrap">
+            <div class="map"></div>
+            <div class="map__buttons">
+              <button class="map__buttons-play" >
+                <img src="/images/Play.svg" alt="Play" title="Click or press SPACE">
+              </button>
+              <button class="map__buttons-pause" style="display: none"> 
+                <img src="/images/Pause.svg" alt="Pause">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline__days"></div>
+          <input class="timeline__line" type="range" min="0" max="99" class="timeline__line"></div>
+          <div class="timeline__hint">
+            <div class="timeline__hint-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
